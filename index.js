@@ -46,7 +46,7 @@ const cors = require("cors");
 
 app.use(cors());
 app.get("/", (request, response) => {
-  response.send("<b>Hehe</b>");
+  response.send("<b>Backend server is running</b>");
 });
 
 app.get("/api/notes", (request, response) => {
